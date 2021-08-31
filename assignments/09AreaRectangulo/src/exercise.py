@@ -1,6 +1,11 @@
+def area(bas, alt):
+    return bas*alt
 
 def main():
-    #escribe tu código abajo de esta línea
+    base=float(input('Dame la base: '))
+    altura= float(input('Dame la altura: '))
+    resultado=area(base, altura)
+    print('El área del rectángulo es: '+str(resultado))
     pass
 
 if __name__=='__main__':
